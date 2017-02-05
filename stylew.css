@@ -110,13 +110,13 @@ ul#links li {
 /*  display:block; */
 	padding:0.2em 0.8em 0.2em 0.8em;
 	/* background: #47a;*/
-	background: #C8C8C8;
+	background: #F1D384;
   /*border: 1px solid black;*/
 }
 
 #links a:hover {
 	color:#000;
-	background: #F1D384;
+	background: #FFFFFF;
 }
 
 .ptitle {
