@@ -1,40 +1,49 @@
 #container {
-	border: 1px solid black;
 	margin: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 10px;
-	background:#fff; 
+	background:#fff;
 }
 
-#Header {
+.Header {
 	padding: 5px;
 	margin-bottom: 5px;
 /*	background-color: rgb(213, 219, 225); */
 /*	background-color: #A0BDD3; */
-	background-color: #FF6E1E; 
+	background-color: #FF6E1E;
 	color: #FFFFFF;
-	height: 1%;
+	/* height: 10%; */
+	/* width: 60%; */
 }
 
-#Header span {
+.Header span {
 /* the main title */
 	font-size: 20pt;
-	/*font-variant: small-caps;*/ 
+
+
+	/*font-variant: small-caps;*/
 }
 
-#Header img {
+.Header img {
 /* Caltech logo */
 	float:right;
 }
 
+#logos {
+	list-style-type: none;
+	padding:1px 1px 1px 20px;
+	/* margin:0px 0px 5px 10%; */
+	background:transparent;
+}
+
 #Content {
 	padding-top: 5px;
-	width: 60%;
+	/* width: 60%; */
 	margin: 0 0 0 10px;
 /*	background-color: gray; */
 	background-color: #ffffff;
-	float:left; 
+	/* float:left; */
 	line-height: 1.4;
 }
 
@@ -86,16 +95,15 @@ ul#News li {
 }
 
 body {
-	font: 11pt Candara, "News Gothic MT", "Bitstream Vera Sans", Verdana, Trebuchet, "Trebuchet MS", sans-serif; 
-	background-color:#76777B;
+	font: 11pt Candara, "News Gothic MT", "Bitstream Vera Sans", Verdana, Trebuchet, "Trebuchet MS", sans-serif;
 #rgb(45, 40, 45);
 	color:#000000;
 }
 
 ul#links {
 	list-style-type: none;
-	padding:5px;
-	margin:0px 0px 5px 10%;
+	padding:1px 1px 1px 10px;
+	/* margin:0px 0px 5px 10%; */
 	background:transparent;
 }
 
@@ -105,18 +113,19 @@ ul#links li {
 }
 
 #links a, #links a:visited {
-	color:#000000; 
-	text-decoration:none; 
+	/* color:#000000; */
+	text-decoration:none;
 /*  display:block; */
 	padding:0.2em 0.8em 0.2em 0.8em;
 	/* background: #47a;*/
-	background: #F1D384;
+	/* background: #F1D384; */
   /*border: 1px solid black;*/
 }
 
 #links a:hover {
-	color:#000;
-	background: #FFFFFF;
+	color:#000000;
+	/* background: #FFFFFF; */
+	text-decoration:underline;
 }
 
 .ptitle {
@@ -135,6 +144,12 @@ ul#links li {
 	margin-left: 25px;
 }
 
+.current-page {
+	/* font-size:200%; */
+	font-weight:bolder;
+	color: blue;
+
+}
 
 .research {
 	font-size:90%;
@@ -153,22 +168,23 @@ ul#links li {
 
 a:hover {
 /*        background: #258; */
-background-color:#F1D384;
+/* background-color:#F1D384; */
+/* text:underline; */
 }
 
 a:link{
-	color:#000000;
+	/* color:#000000; */
+	color: black !important;
 	text-decoration:underline;
 }
 a:visited {
 	text-decoration: underline;
+	color: black !important;
 /*	color: #820000; */
-	color: #000000; 
+	/* color: #000000; */
 /*	color: #ff00da; bright pink */
 }
-	
+
 a:visited:hover {
 /*	color: white;  */
 }
-
-
