@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var p = location.pathname;
+        if (p.indexOf('/gget/') === 0) {
+          location.replace('https://scverse.org' + p + location.search + location.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected, visit <a href="https://scverse.org/gget">scverse.org/gget</a>.</p>
+  </body>
+</html>
